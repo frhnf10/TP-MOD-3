@@ -21,10 +21,7 @@ a:visited{
 }
 /* class Paragraph */
 
-.img{
-    display: inline;
-    /* karena di html menggunakan div, displaynya di ubah menjadi inline supaya bisa sejajar secara horizontal */
-
+#img2{
     padding: 15px;
-    /* box paddingnya diatur untuk setiap logo agar bisa berjarak */
+    /* "padding" untuk mengatur ukuran dari lapisan terluar dari text sebelum border. digunakan supaya terdapat jarak*/
 }
