@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Diri</title>
+</head>
+<body>
+    <link rel="stylesheet" href="/Personal_Profile.css">
+    <!-- Melakukan link ke file CSS, untuk menggabungkan dengan HTML + CSS -->
+
+    <h1>Profile Pribadi</h1>
+    <!-- Sebagai heading 1, biasanya untuk sebuah judul -->
+
+    <table>
+    <!-- Membuat table, membuat foto profile dan video bisa dimasukkan kedalam table -->
+        <thead>
+        <!-- menginformasikan bahwa ini table header -->
+            <tr>
+            <!-- table row, untuk mengisi tabel secara urutan baris -->
+                <th>Foto Profil</th>
+                <th>Video Perkenalan</th>
+                <!-- table head, sebagai atribut utama pada table -->
+            </tr>
+        </thead>
+
+        <tbody>
+        <!-- menginformasikan bagian dalam table -->
+            <tr>
+                <td><img src="DSCF0431.JPG" alt="Farhan's Picture" width="200px"></td>
+                <td><video controls width="475px"> <source src="Pengenalan Diri.mp4"></video></td>
+                <!-- table data, memasukkan konten kedalam table -->
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Tentang Saya</h2>
+    <!-- sebagai heading 2 -->
+
+    <p class="Paragraph">Saya Farhan Fath, Mahasiswa aktif Telkom University, 
+    program studi S1 Teknologi Informasi, angkatan 2021 Semester 7, Yang 
+    akan menyelesaikan studinya pada tahun 2025 mendatang.</p>
+    <p class="Paragraph">Saat ini aktif dalam kegiatan belajar di kampus 
+    serta mencari pengalaman magang yang sesuai dengan minat saya di bidang 
+    Data Analis dan juga saat ini sedang mempelajari hal baru di lingkungan 
+    pemrograman Front End Web Development. Saya memiliki minat berkarir 
+    sebagai seorang Data Analis dan melanjutkannya ke Data Science.</p>
+    <!-- p, untuk Paragraf -->
+    <!-- menggunakan class untuk mengatur style dari textnya -->
+
+    <h2>Keterampilan</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Keterampilan</th>
+                <th>Tingkat</th>
+            </tr>
+        </thead>
+        
+        <tbody>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Menengah</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Pemula</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Pemula</td>
+            </tr>
+            <tr>
+                <td>Excel</td>
+                <td>Mahir</td>
+            </tr>
+            <tr>
+                <td>Looker Studio</td>
+                <td>Mahir</td>
+            </tr>
+            <tr>
+                <td>Github</td>
+                <td>Mahir</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Hubungi Saya</h2>
+
+    <form action="">
+    <!-- untuk pengisian form, "action" digunakan untuk mengirimkan inputan dibawah ini setelah user meng klik button dan dikirimkan ke backend -->
+    
+        <label for="nama">Nama:</label>
+        <!-- "label" digunakan untuk labeling, misal ketika kita meng kilik "Nama:" pada website, maka akan diarahkan untuk mengetik sebuah teks, email, password dan lainnya di kolom fill -->
+
+        <input type="text" id="nama"> <br>
+        <!-- input ini yang akan menyediakan box untuk menerima inputan dengan type "text" -->
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"><br>
+        <!-- berikut dengan type "email" -->
+
+        <label for="pesan">Pesan:</label><br>
+        <textarea name="" id="pesan"></textarea><br>
+        <!-- "textarea" menyediakan box untuk teks, biasanya untuk sebuah pesan panjang -->
+
+        <button>Kirim Pesan</button>
+        <!-- "button", untuk membuat tombol -->
+    </form>
+
+    <h2>Media Sosial:</h2>
+    <a href="https://linkedin.com/in/farhan-fath-1109b0279" target="_blank">LinkedIn</a> |
+    <a href="https://github.com/frhnf10" target="_blank">GitHub</a> |
+    <a href="https://www.instagram.com/farhan_fath_03_29/" target="_blank">Instagram</a><br>
+    <!-- "a" untuk membuat link pada text, misal pada contoh diatas ketika meng kilk "LinkedIn" maka akan diarahkan ke link yang diberikan -->
+    <!-- "target" tambahan, agar link yang di buka dapat di buka di tab lainnya -->
+
+    <div class="img"><img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" alt="LinkedIn" width="30px" style="padding-top: 10px"></div> <!-- menggunaan style padding agar gambar tidak menempel dengan teks diatasnya -->
+    <div class="img"><img src="https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png" alt="Github" width="30px"></div>
+    <div class="img"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/1024px-Instagram_logo_2022.svg.png" alt="Instagram" width="30px"></div>
+    <!-- "div" biasanya ketika kita memasukkan teks didalamnya, maka web akan membaca areanya secara horizontal
+    disini menggunakan img didalam div, untuk menampilkan logo dari beberapa gambar dari web lain
+    alt, untuk alternatif jika gambar pada link tidak ada
+    width, untuk mengatur ukuran gambarnya -->
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+a{
+    color: blue;
+    /* warna dari teksnya */
+}
+/* semua yang memiliki tag "a" akan diwarnai biru*/
+
+a:visited{
+    color: blueviolet;
+}
+/* ketika link sudah dikunjungi maka akan berganti warna */
+
+.Paragraph{
+    text-indent: 20px;
+    /* untuk memberikan jarak menjorok ke kanan */
+
+    text-align: justify;
+    /* supaya text rata kanan kiri */
+
+    text-transform: capitalize;
+    /* supaya semua awalan huruf disetiap kata menjadi huruf kapital */
+}
+/* class Paragraph */
+
+.img{
+    display: inline;
+    /* karena di html menggunakan div, displaynya di ubah menjadi inline supaya bisa sejajar secara horizontal */
+
+    padding: 15px;
+    /* box paddingnya diatur untuk setiap logo agar bisa berjarak */
+}
