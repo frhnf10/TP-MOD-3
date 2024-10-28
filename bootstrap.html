@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Profile</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="bootstrap.html">Farhan's Profile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="bootstrap.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#form10">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" target="_blank" href="https://www.linkedin.com/in/farhan-fath-1109b0279">More Info</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="card text-center bg-primary text-light">
+        <h1>Welcome to My Personal Website</h1>
+    </header>
+
+    <!-- Left Sidebar, Content, Right Sidebar -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Left Sidebar -->
+            <aside class="col-md-2 bg-info">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Skill's</h4>
+                    </div>
+                </div>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><p>Python</p></li>
+                    <li class="nav-item"><p>HTML</p></li>
+                    <li class="nav-item"><p>CSS</p></li>
+                    <li class="nav-item"><p>Microsoft Excel</p></li>
+                    <li class="nav-item"><p>Spreadsheet</p></li>
+                    <li class="nav-item"><p>Git</p></li>
+                    <li class="nav-item"><p>GitHub</p></li>
+                    <li class="nav-item"><p>Data Visualization</p></li>
+                    <li class="nav-item"><p>Looker Studio</p></li>
+                    <li class="nav-item"><p>Internet of Things (IoT)</p></li>
+                    <li class="nav-item"><p>Data Analyis</p></li>
+                </ul>
+            </aside>
+
+            <!-- Content -->
+            <main class="col-md-8">
+                <h2>About</h2>
+                <div class="text-center">
+                    <img src="profile.jpg" class="img-thumbnail rounded" alt="Profile Photo">
+                </div>
+                <p>Saya Farhan Fath, Mahasiswa aktif Telkom University, program studi S1 Teknologi Informasi, angkatan 2021 Semester 7, Yang akan menyelesaikan
+                    studinya pada tahun 2025 mendatang.<br><br>Saat ini aktif dalam kegiatan belajar di kampus serta mencari pengalaman magang yang sesuai dengan minat
+                    saya di bidang Data Analis dan juga saat ini sedang mempelajari hal baru di lingkungan pemrograman Front End Web Development.
+                    Saya memiliki minat berkarir sebagai seorang Data Analis dan melanjutkannya ke Data Science.</p>
+
+                <!-- Form -->
+                <div class="form-section mt-4">
+                    <h4 id="form10">Contact Me</h4>
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send</button>
+                    </form>
+                </div>
+            </main>
+
+            <!-- Right Sidebar -->
+            <aside class="col-md-2 bg-info">
+                <div class="card">
+                    <div class="card-header">
+                        <h4>Experience</h4>
+                    </div>
+                </div>
+                <ul class="nav flex-column">
+                    <li><b>Information Technology Infrastructure Engineer</b></li>
+                    <li><p>Yayasan Pendidikan Telkom · Internship <br> Jul 2024 - Sept 2024</p></li>
+                    <li><b>Production Staff</b></li>
+                    <li><p>Lincah Store · Contract <br> Jul 2023 - Sep 2023</p></li>
+                </ul>
+            </aside>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="card text-center bg-primary text-light">
+        <p>&copy; 2024 My Profile</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
